@@ -31,7 +31,20 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
+
+	"InstallChrome",
+	"InstallAutohotkey",
+	"InstallRevoUninstaller",
+	"InstallUnifiedremote",
+	"InstallOpenShell",
+	"InstallNvidiaDriver",
+	"InstallMSIAfterburner",
+	"InstallqBittorrent",
+	"InstallLogitechGamingSoftware",
+	"InstallFoobar2000",
+	"InstallWinCDEmu",
 	"InstallAdobe",
+	#"InstallAdobe",	
 	"Install7Zip",
 	"InstallNotepadplusplus",
 	"InstallMediaPlayerClassic",
@@ -204,6 +217,61 @@ Function InstallTitusProgs {
 Function InstallAdobe {
 	Write-Output "Installing Adobe Acrobat Reader"
 	choco install adobereader -y
+}
+
+Function InstallChrome {
+	Write-Output "Installing Adobe Acrobat Reader"
+	choco install googlechrome -y
+}
+
+Function InstallAutohotkey {
+	Write-Output "Installing Adobe Acrobat Reader"
+	choco install autohotkey -y
+}
+
+Function InstallRevoUninstaller {
+	Write-Output "Installing Adobe Acrobat Reader"
+	choco install revo-uninstaller -y
+}
+
+Function InstallUnifiedremote {
+	Write-Output "Installing Adobe Acrobat Reader"
+	choco install unifiedremote -y
+}
+
+Function InstallOpenShell {
+	Write-Output "Installing Adobe Acrobat Reader"
+	choco install open-shell -y
+}
+
+Function InstallNvidiaDriver {
+	Write-Output "Installing Adobe Acrobat Reader"
+	choco install nvidia-display-driver -y
+}
+
+Function InstallMSIAfterburner {
+	Write-Output "Installing Adobe Acrobat Reader"
+	choco install msiafterburner -y
+}
+
+Function InstallqBittorrent {
+	Write-Output "Installing Java"
+	choco install qbittorrent -y
+}
+
+Function InstallLogitechGamingSoftware {
+	Write-Output "Installing Java"
+	choco install logitechgaming -y
+}
+
+Function InstallFoobar2000 {
+	Write-Output "Installing Java"
+	choco install foobar2000 -y
+}
+
+Function InstallWinCDEmu {
+	Write-Output "Installing Java"
+	choco install wincdemu -y
 }
 
 Function InstallJava {

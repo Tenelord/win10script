@@ -36,7 +36,7 @@ $tweaks = @(
 	"InstallAutohotkey",
 	"InstallRevoUninstaller",
 	"InstallUnifiedremote",
-	"InstallOpenShell",
+	#"InstallOpenShell",
 	"InstallNvidiaDriver",
 	"InstallMSIAfterburner",
 	"InstallqBittorrent",
